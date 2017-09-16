@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(
 		features = "src\\test\\java\\Resources",
 		glue = "stepdef",
-		tags = {"@chrome_geolocation"},
+		tags = {"@chrome"},
 		dryRun = false,
 		monochrome = true
 		
